@@ -1,6 +1,7 @@
 FROM node:8-alpine
 
 RUN apk add --no-cache \
+    curl \
     python \
     build-base \
     git \
